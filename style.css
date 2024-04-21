@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1E90FF;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.logo img {
+    width: 100px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+h2{
+    margin-top: 0px;
+}
+
+.secondtitle{
+    text-align: center;
+    margin-top: 30px;
+}
+.services {
+    display: block;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.text1 {
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+.service {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.service1 {
+    background-image: url(images/prog.jpg);
+    text-align: center;
+    color: white;
+    height: 215px;
+}
+
+
+.service img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #1E90FF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.schedule {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.event {
+    margin: 10px 0;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 40px;
+}
+
+.event h3 {
+    color: #333;
+}
+
+
+.about {
+    text-align: center;
+    margin: 20px 0;
+}
+
+footer {
+    background-color: #1E90FF;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
